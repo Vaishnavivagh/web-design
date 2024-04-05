@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Advertisement</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="job-advertisement">
+        <h1>Job Title: <span class="job-title">Software Engineer</span></h1>
+        <p>Company: <span class="company-name">ABC Tech Solutions</span></p>
+        <h2>Description:</h2>
+        <textarea class="description" rows="5" cols="50" readonly>
+            We are seeking a talented Software Engineer to join our dynamic team. The ideal candidate should have strong problem-solving skills and a passion for creating high-quality software.
+        </textarea>
+        <h2>Qualifications:</h2>
+        <ul class="qualifications">
+            <li>Bachelor's degree in Computer Science or related field</li>
+            <li>Experience with Java, Python, or C++</li>
+            <li>Excellent communication skills</li>
+        </ul>
+        <h2>Tasks:</h2>
+        <ul class="tasks">
+            <li>Design and develop software applications</li>
+            <li>Collaborate with cross-functional teams</li>
+            <li>Write clean, maintainable code</li>
+        </ul>
+        <h2>Offers:</h2>
+        <ul class="offers">
+            <li>Competitive salary</li>
+            <li>Flexible work hours</li>
+            <li>Health insurance</li>
+        </ul>
+        <h2>Additional Information:</h2>
+        <textarea class="additional-info" rows="3" cols="50" readonly>
+            This position is based in our Vadodara office.
+        </textarea>
+        
+            <form id="survey-form">
+                <div class="survey-form">
+                  
+                </div>
+                <div class="form-group">
+                  <label id="name-label" for="name">Name</label>
+                    <input type="text" id="name" " name="Name" class="form-control" placeholder="Enter your Name" required>
+                  
+                </div>
+                <div class="form-group">
+                  <label id="email-label" for="Email">Email</label>
+                  <input id="email" type="email" name="email" class="form-control" placeholder="Enter your Email" required>
+        
+                </div>
+            </form>
+        <button onclick="save()">Save</button>
+        <button onclick="apply()">Apply</button>
+        
+    </div>
+    </div>
+</body>
+</html>
